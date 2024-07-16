@@ -1,0 +1,5 @@
+"0","# Load packages "
+"0","if (!requireNamespace(""pacman"", quietly = TRUE)) install.packages(""pacman"")"
+"0","pacman::p_load(tidyverse, here, sf, bslib, shiny, shinydashboard, bsicons, rnaturalearth, plotly, countrycode, htmltools, reactable, janitor)"
+"0",""
+"0",""

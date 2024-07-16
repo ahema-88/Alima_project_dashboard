@@ -1,0 +1,8 @@
+"0",""
+"0","value_box("
+"0","  title = ""Average of Treatments Succeeded in 2021"","
+"0","  value = average_treatment_success_rate_2021,"
+"0","  showcase = bsicons::bs_icon(""activity""),"
+"0","  theme = value_box_theme(bg = ""#529fe9""),"
+"0","  p(paste0(""("", average_treatment_success_rate_2021, "")""))"
+"0",")"

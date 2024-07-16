@@ -1,0 +1,3 @@
+"0","# Load world countries data"
+"0","countries <- ne_countries(returnclass = ""sf"")"
+"0",""

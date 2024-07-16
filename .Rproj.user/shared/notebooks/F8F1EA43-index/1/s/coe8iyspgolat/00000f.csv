@@ -1,0 +1,4 @@
+"0","# Merge TB data with world map data"
+"0","world <- ne_countries(scale = ""medium"", returnclass = ""sf"")"
+"0","tb_world <- left_join(tb_combined, world, by = c(""country_iso"" = ""iso_a3""))"
+"0",""

@@ -1,0 +1,6 @@
+"0","# Calculate treatment success rate for 2021"
+"0","tb_combined_2021 <- tb_world %>%"
+"0","  filter(year == 2021 & !is.na(total_cases) & !is.na(treatment_succesed))"
+"0",""
+"0","average_treatment_success_rate_2021 <- mean(tb_combined_2021$treatment_succesed / tb_combined_2021$total_cases) * 100"
+"0",""

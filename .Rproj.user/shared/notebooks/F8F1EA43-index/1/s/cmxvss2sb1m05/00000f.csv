@@ -1,0 +1,11 @@
+"0","# Ensure proper country code mapping"
+"0","tb_combined <- tb_combined %>%"
+"0","  mutate(country_iso = countrycode(`Country Name`, ""country.name"", ""iso3c""))"
+"2","Warning:"
+"2"," [38;5;250mThere was 1 warning in `mutate()`.[39m
+[38;5;250m[36mℹ[38;5;250m In argument: `country_iso =
+  countrycode(`Country Name`,
+  ""country.name"", ""iso3c"")`.[39m
+Caused by warning:
+[33m![39m Some values were not matched unambiguously: Africa Eastern and Southern, Africa Western and Central, Arab World, Caribbean small states, Central Europe and the Baltics, Channel Islands, Early-demographic dividend, East Asia & Pacific, East Asia & Pacific (excluding high income), East Asia & Pacific (IDA & IBRD countries), Euro area, Europe & Central Asia, Europe & Central Asia (excluding high income), Europe & Central Asia (IDA & IBRD countries), European Union, Fragile and conflict affected situations, Heavily indebted poor countries (HIPC), High income, IBRD only, IDA & IBRD total, IDA blend, IDA only, IDA total, Kosovo, Late-demographic dividend, Latin America & Caribbean, Latin America & Caribbean (excluding high income), Latin America & the Caribbean (IDA & IBRD countries), Least developed countries: UN classification, Low & middle income, Low income, Lower middle income, Middle East & North Africa, Middle East & North Africa (excluding high income), Middle East & North Africa (IDA & IBRD countries), Middle income, North America, Not classified, OECD members, Other small states, Pacific island small states, Post-demographic dividend, Pre-demographic dividend, Small states, South Asia, South Asia (IDA & IBRD), Sub-Saharan Africa, Sub-Saharan Africa (excluding high income), Sub-Saharan Africa (IDA & IBRD countries), Upper middle income, World
+"
